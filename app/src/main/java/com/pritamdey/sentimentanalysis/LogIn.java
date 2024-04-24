@@ -94,12 +94,11 @@ public class LogIn extends AppCompatActivity {
                         Log.d("signIn", new Gson().toJson(response.body()));
                         finish();
                     }
-
-
                 }
 
                 @Override
                 public void onFailure(Call<User> call, Throwable t) {
+                    Toast.makeText(LogIn.this, "Something Went Wrong", Toast.LENGTH_SHORT).show();
                     Log.d("signIn", t.getMessage());
                 }
             });

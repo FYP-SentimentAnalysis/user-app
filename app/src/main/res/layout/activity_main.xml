@@ -102,7 +102,7 @@
         android:layout_marginTop="18dp"
         android:background="@drawable/boxshapedark"
         android:gravity="top"
-        android:hint="What service did you avail?"
+        android:hint="How was the service?"
         android:padding="18dp"
         android:textColor="@color/white"
         android:textColorHint="#AFAFAF"
@@ -145,7 +145,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous Comments"
-            android:textColor="@color/black"
+            android:textColor="#bbe1fa"
             android:textSize="20dp"
             android:textStyle="bold" />
 
